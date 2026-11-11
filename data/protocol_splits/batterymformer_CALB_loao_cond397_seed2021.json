@@ -1,0 +1,150 @@
+{
+  "asset_version": 1,
+  "protocol": "batterymformer",
+  "source_file": "reference/BatteryMFormer/data_provider/split_json/loao/CALB_loao_cond397_seed2021.json",
+  "source_sha256": "ef66d6d6fd1ea6732b231b1d42222be4bcf75df2138b125558af67799381bbce",
+  "split_protocol": "leave_one_aging_condition_out",
+  "split_seed": 2021,
+  "split_tag": "CALB_loao_cond397_seed2021",
+  "test": [
+    {
+      "cell_id": "CALB_25_T25-1",
+      "dataset": "CALB",
+      "source_file": "CALB_25_T25-1.pkl"
+    },
+    {
+      "cell_id": "CALB_25_T25-2",
+      "dataset": "CALB",
+      "source_file": "CALB_25_T25-2.pkl"
+    }
+  ],
+  "train": [
+    {
+      "cell_id": "CALB_0_B182",
+      "dataset": "CALB",
+      "source_file": "CALB_0_B182.pkl"
+    },
+    {
+      "cell_id": "CALB_0_B183",
+      "dataset": "CALB",
+      "source_file": "CALB_0_B183.pkl"
+    },
+    {
+      "cell_id": "CALB_0_B184",
+      "dataset": "CALB",
+      "source_file": "CALB_0_B184.pkl"
+    },
+    {
+      "cell_id": "CALB_0_B185",
+      "dataset": "CALB",
+      "source_file": "CALB_0_B185.pkl"
+    },
+    {
+      "cell_id": "CALB_0_B187",
+      "dataset": "CALB",
+      "source_file": "CALB_0_B187.pkl"
+    },
+    {
+      "cell_id": "CALB_0_B188",
+      "dataset": "CALB",
+      "source_file": "CALB_0_B188.pkl"
+    },
+    {
+      "cell_id": "CALB_0_B189",
+      "dataset": "CALB",
+      "source_file": "CALB_0_B189.pkl"
+    },
+    {
+      "cell_id": "CALB_0_B190",
+      "dataset": "CALB",
+      "source_file": "CALB_0_B190.pkl"
+    },
+    {
+      "cell_id": "CALB_45_B253",
+      "dataset": "CALB",
+      "source_file": "CALB_45_B253.pkl"
+    },
+    {
+      "cell_id": "CALB_45_B255",
+      "dataset": "CALB",
+      "source_file": "CALB_45_B255.pkl"
+    },
+    {
+      "cell_id": "CALB_45_B256",
+      "dataset": "CALB",
+      "source_file": "CALB_45_B256.pkl"
+    }
+  ],
+  "val": [
+    {
+      "cell_id": "CALB_35_B173",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B173.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B174",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B174.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B175",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B175.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B222",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B222.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B223",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B223.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B224",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B224.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B227",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B227.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B228",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B228.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B229",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B229.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B230",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B230.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B247",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B247.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B248",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B248.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B249",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B249.pkl"
+    },
+    {
+      "cell_id": "CALB_35_B250",
+      "dataset": "CALB",
+      "source_file": "CALB_35_B250.pkl"
+    }
+  ]
+}

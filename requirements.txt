@@ -1,0 +1,10 @@
+# Core package: NumPy + PyTorch only (see batteryadapter/README.md).
+numpy>=1.24
+torch>=2.0
+
+# TPE+ASHA search: the version is hard-checked by scripts/search/run_tpe_asha.py.
+optuna==4.6.0
+
+# Native TSFM LoRA experiments only (experimentals/run_lora.py); imported lazily.
+peft>=0.14
+

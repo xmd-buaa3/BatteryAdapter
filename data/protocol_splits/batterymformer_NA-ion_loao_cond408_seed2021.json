@@ -1,0 +1,170 @@
+{
+  "asset_version": 1,
+  "protocol": "batterymformer",
+  "source_file": "reference/BatteryMFormer/data_provider/split_json/loao/NA-ion_loao_cond408_seed2021.json",
+  "source_sha256": "916e5c4197d72eef3f3b4f69bf9906a0477f806b16809c8be44ce8f6c4d0fc79",
+  "split_protocol": "leave_one_aging_condition_out",
+  "split_seed": 2021,
+  "split_tag": "NA-ion_loao_cond408_seed2021",
+  "test": [
+    {
+      "cell_id": "NA-ion_270040-3-5-52",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-3-5-52.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-3-8-49",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-3-8-49.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-4-1-48",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-4-1-48.pkl"
+    }
+  ],
+  "train": [
+    {
+      "cell_id": "NA-ion_270040-1-2-63",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-1-2-63.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-1-3-62",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-1-3-62.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-1-5-60",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-1-5-60.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-2-2-12",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-2-2-12.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-2-5-12",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-2-5-12.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-3-1-56",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-3-1-56.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-3-2-55",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-3-2-55.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-3-7-50",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-3-7-50.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-4-2-47",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-4-2-47.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-4-6-43",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-4-6-43.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-5-1-39",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-5-1-39.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-5-2-38",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-5-2-38.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-5-3-37",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-5-3-37.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-5-6-34",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-5-6-34.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-5-7-33",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-5-7-33.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-5-8-32",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-5-8-32.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-6-2-30",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-6-2-30.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-8-5-16",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-8-5-16.pkl"
+    }
+  ],
+  "val": [
+    {
+      "cell_id": "NA-ion_270040-1-6-59",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-1-6-59.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-1-7-58",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-1-7-58.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-1-8-57",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-1-8-57.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-3-3-54",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-3-3-54.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-3-4-53",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-3-4-53.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-4-3-46",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-4-3-46.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-5-5-35",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-5-5-35.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-6-6-26",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-6-6-26.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-6-8-24",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-6-8-24.pkl"
+    },
+    {
+      "cell_id": "NA-ion_270040-7-1-23",
+      "dataset": "NA-ion",
+      "source_file": "NA-ion_270040-7-1-23.pkl"
+    }
+  ]
+}

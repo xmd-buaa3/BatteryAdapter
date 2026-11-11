@@ -1,0 +1,4910 @@
+{
+  "asset_version": 1,
+  "protocol": "batterymformer",
+  "source_file": "reference/BatteryMFormer/data_provider/split_json/pure_ood/Liion_split_seed42.json",
+  "source_sha256": "2ecd6d4116b92fc7e512f3fb1ddda73900781cdd6f129eb439b3463ddcd9f460",
+  "split_protocol": "aging_condition_count_6_2_2",
+  "split_seed": 42,
+  "split_tag": "Liion_split_seed42",
+  "test": [
+    {
+      "cell_id": "CALCE_CX2_16",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CX2_16.pkl"
+    },
+    {
+      "cell_id": "CALCE_CX2_33",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CX2_33.pkl"
+    },
+    {
+      "cell_id": "CALCE_CX2_35",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CX2_35.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl"
+    },
+    {
+      "cell_id": "HUST_1-7",
+      "dataset": "Li_ion",
+      "source_file": "HUST_1-7.pkl"
+    },
+    {
+      "cell_id": "HUST_2-8",
+      "dataset": "Li_ion",
+      "source_file": "HUST_2-8.pkl"
+    },
+    {
+      "cell_id": "HUST_3-8",
+      "dataset": "Li_ion",
+      "source_file": "HUST_3-8.pkl"
+    },
+    {
+      "cell_id": "HUST_4-7",
+      "dataset": "Li_ion",
+      "source_file": "HUST_4-7.pkl"
+    },
+    {
+      "cell_id": "HUST_5-7",
+      "dataset": "Li_ion",
+      "source_file": "HUST_5-7.pkl"
+    },
+    {
+      "cell_id": "HUST_7-1",
+      "dataset": "Li_ion",
+      "source_file": "HUST_7-1.pkl"
+    },
+    {
+      "cell_id": "HUST_7-2",
+      "dataset": "Li_ion",
+      "source_file": "HUST_7-2.pkl"
+    },
+    {
+      "cell_id": "HUST_8-1",
+      "dataset": "Li_ion",
+      "source_file": "HUST_8-1.pkl"
+    },
+    {
+      "cell_id": "HUST_8-4",
+      "dataset": "Li_ion",
+      "source_file": "HUST_8-4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G13C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G13C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G13C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G13C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G19C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G19C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G1C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G1C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G20C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G20C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G20C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G20C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G20C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G20C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G20C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G20C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G25C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G25C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G25C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G25C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G27C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G27C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G31C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G31C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G32C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G32C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G33C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G33C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G34C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G34C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G38C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G38C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G38C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G38C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G38C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G38C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G38C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G38C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G3C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G3C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G3C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G3C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G40C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G40C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G41C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G41C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G43C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G43C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G43C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G43C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G44C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G44C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G44C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G44C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G45C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G45C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G47C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G47C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G48C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G48C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G49C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G49C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G4C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G4C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G4C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G4C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G51C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G51C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G55C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G55C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G57C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G57C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G58C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G58C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G58C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G58C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G58C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G58C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G59C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G59C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G60C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G60C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G6C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G6C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G8C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G8C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G8C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G8C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G9C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G9C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G9C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G9C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G9C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G9C3.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c15",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c15.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c23",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c23.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c38",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c38.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c39",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c39.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c43",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c43.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c44",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c44.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c45",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c45.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c10",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c10.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c20",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c20.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c28",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c28.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c3",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c3.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c43",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c43.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c45",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c45.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c46",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c46.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c0",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c0.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c1",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c1.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c17",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c17.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c2",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c2.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c22",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c22.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c23",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c23.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c24",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c24.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c25",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c25.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c26",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c26.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c35",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c35.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c39",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c39.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c41",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c41.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c7",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c7.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c8",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c8.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c9",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c9.pkl"
+    },
+    {
+      "cell_id": "MICH_01R_pouch_NMC_25C_0-100_0.2-0.2C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_01R_pouch_NMC_25C_0-100_0.2-0.2C.pkl"
+    },
+    {
+      "cell_id": "MICH_04R_pouch_NMC_25C_0-100_1.5-1.5C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_04R_pouch_NMC_25C_0-100_1.5-1.5C.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_LFP_35C_0-100_0.5-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_LFP_35C_0-100_0.5-1C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_LFP_35C_0-100_0.5-1C_c",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_LFP_35C_0-100_0.5-1C_c.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_LFP_35C_0-100_0.5-1C_d",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_LFP_35C_0-100_0.5-1C_d.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_LFP_35C_0-100_0.5-2C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_LFP_35C_0-100_0.5-2C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_LFP_35C_0-100_0.5-2C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_LFP_35C_0-100_0.5-2C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_25C_0-100_0.5-0.5C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_25C_0-100_0.5-0.5C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_25C_0-100_0.5-0.5C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_25C_0-100_0.5-0.5C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_25C_0-100_0.5-1C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_25C_0-100_0.5-1C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_25C_0-100_0.5-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_25C_0-100_0.5-1C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_25C_0-100_0.5-1C_c",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_25C_0-100_0.5-1C_c.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_25C_0-100_0.5-1C_d",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_25C_0-100_0.5-1C_d.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_25C_0-100_0.5-2C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_25C_0-100_0.5-2C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_25C_0-100_0.5-2C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_25C_0-100_0.5-2C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_25C_20-80_0.5-0.5C_c",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_25C_20-80_0.5-0.5C_c.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_25C_20-80_0.5-0.5C_d",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_25C_20-80_0.5-0.5C_d.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-0.5C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-0.5C_b.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_106",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_106.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_107",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_107.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_108",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_108.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_109",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_109.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_110",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_110.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_139",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_139.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_140",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_140.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_141",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_141.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_142",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_142.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_143",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_143.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_144",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_144.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_148",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_148.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_149",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_149.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_150",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_150.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_154",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_154.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_155",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_155.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_156",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_156.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_163",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_163.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_165",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_165.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_172",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_172.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_173",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_173.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_174",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_174.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_202",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_202.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_203",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_203.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_204",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_204.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_214",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_214.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_215",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_215.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_216",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_216.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_217",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_217.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_219",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_219.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_282",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_282.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_283",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_283.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_284",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_284.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_285",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_285.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_286",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_286.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_287",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_287.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_288",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_288.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_289",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_289.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_290",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_290.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_297",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_297.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_299",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_299.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_303",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_303.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_304",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_304.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_305",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_305.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_312",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_312.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_313",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_313.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_314",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_314.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_315",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_315.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_316",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_316.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_317",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_317.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--1",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--1.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--10",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--10.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--11",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--11.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--12",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--12.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--13",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--13.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--14",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--14.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--15",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--15.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--16",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--16.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--17",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--17.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--18",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--18.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--19",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--19.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--2.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--20",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--20.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--21",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--21.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--22",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--22.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--23",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--23.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--24",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--24.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--25",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--25.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--26",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--26.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--27",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--27.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--28",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--28.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--5",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--5.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--6",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--6.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--7",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--7.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--8",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--8.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY45-05_1--9",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY45-05_1--9.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY35-05_1--1",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY35-05_1--1.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY35-05_1--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY35-05_1--2.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY35-05_1--3",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY35-05_1--3.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY35-05_1--4",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY35-05_1--4.pkl"
+    },
+    {
+      "cell_id": "Tongji3_CY25-05_2--1",
+      "dataset": "Li_ion",
+      "source_file": "Tongji3_CY25-05_2--1.pkl"
+    },
+    {
+      "cell_id": "Tongji3_CY25-05_2--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji3_CY25-05_2--2.pkl"
+    },
+    {
+      "cell_id": "Tongji3_CY25-05_2--3",
+      "dataset": "Li_ion",
+      "source_file": "Tongji3_CY25-05_2--3.pkl"
+    }
+  ],
+  "train": [
+    {
+      "cell_id": "CALCE_CS2_33",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CS2_33.pkl"
+    },
+    {
+      "cell_id": "CALCE_CS2_34",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CS2_34.pkl"
+    },
+    {
+      "cell_id": "CALCE_CS2_35",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CS2_35.pkl"
+    },
+    {
+      "cell_id": "CALCE_CS2_36",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CS2_36.pkl"
+    },
+    {
+      "cell_id": "CALCE_CS2_37",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CS2_37.pkl"
+    },
+    {
+      "cell_id": "CALCE_CS2_38",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CS2_38.pkl"
+    },
+    {
+      "cell_id": "CALCE_CX2_34",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CX2_34.pkl"
+    },
+    {
+      "cell_id": "CALCE_CX2_36",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CX2_36.pkl"
+    },
+    {
+      "cell_id": "CALCE_CX2_37",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CX2_37.pkl"
+    },
+    {
+      "cell_id": "CALCE_CX2_38",
+      "dataset": "Li_ion",
+      "source_file": "CALCE_CX2_38.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_l.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_n.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_o.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_p.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_s.pkl"
+    },
+    {
+      "cell_id": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t",
+      "dataset": "Li_ion",
+      "source_file": "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_t.pkl"
+    },
+    {
+      "cell_id": "HUST_1-5",
+      "dataset": "Li_ion",
+      "source_file": "HUST_1-5.pkl"
+    },
+    {
+      "cell_id": "HUST_10-1",
+      "dataset": "Li_ion",
+      "source_file": "HUST_10-1.pkl"
+    },
+    {
+      "cell_id": "HUST_10-2",
+      "dataset": "Li_ion",
+      "source_file": "HUST_10-2.pkl"
+    },
+    {
+      "cell_id": "HUST_10-3",
+      "dataset": "Li_ion",
+      "source_file": "HUST_10-3.pkl"
+    },
+    {
+      "cell_id": "HUST_10-5",
+      "dataset": "Li_ion",
+      "source_file": "HUST_10-5.pkl"
+    },
+    {
+      "cell_id": "HUST_10-7",
+      "dataset": "Li_ion",
+      "source_file": "HUST_10-7.pkl"
+    },
+    {
+      "cell_id": "HUST_10-8",
+      "dataset": "Li_ion",
+      "source_file": "HUST_10-8.pkl"
+    },
+    {
+      "cell_id": "HUST_2-2",
+      "dataset": "Li_ion",
+      "source_file": "HUST_2-2.pkl"
+    },
+    {
+      "cell_id": "HUST_2-3",
+      "dataset": "Li_ion",
+      "source_file": "HUST_2-3.pkl"
+    },
+    {
+      "cell_id": "HUST_2-4",
+      "dataset": "Li_ion",
+      "source_file": "HUST_2-4.pkl"
+    },
+    {
+      "cell_id": "HUST_2-5",
+      "dataset": "Li_ion",
+      "source_file": "HUST_2-5.pkl"
+    },
+    {
+      "cell_id": "HUST_2-6",
+      "dataset": "Li_ion",
+      "source_file": "HUST_2-6.pkl"
+    },
+    {
+      "cell_id": "HUST_2-7",
+      "dataset": "Li_ion",
+      "source_file": "HUST_2-7.pkl"
+    },
+    {
+      "cell_id": "HUST_3-1",
+      "dataset": "Li_ion",
+      "source_file": "HUST_3-1.pkl"
+    },
+    {
+      "cell_id": "HUST_3-2",
+      "dataset": "Li_ion",
+      "source_file": "HUST_3-2.pkl"
+    },
+    {
+      "cell_id": "HUST_3-4",
+      "dataset": "Li_ion",
+      "source_file": "HUST_3-4.pkl"
+    },
+    {
+      "cell_id": "HUST_3-5",
+      "dataset": "Li_ion",
+      "source_file": "HUST_3-5.pkl"
+    },
+    {
+      "cell_id": "HUST_3-6",
+      "dataset": "Li_ion",
+      "source_file": "HUST_3-6.pkl"
+    },
+    {
+      "cell_id": "HUST_3-7",
+      "dataset": "Li_ion",
+      "source_file": "HUST_3-7.pkl"
+    },
+    {
+      "cell_id": "HUST_4-2",
+      "dataset": "Li_ion",
+      "source_file": "HUST_4-2.pkl"
+    },
+    {
+      "cell_id": "HUST_4-3",
+      "dataset": "Li_ion",
+      "source_file": "HUST_4-3.pkl"
+    },
+    {
+      "cell_id": "HUST_4-6",
+      "dataset": "Li_ion",
+      "source_file": "HUST_4-6.pkl"
+    },
+    {
+      "cell_id": "HUST_4-8",
+      "dataset": "Li_ion",
+      "source_file": "HUST_4-8.pkl"
+    },
+    {
+      "cell_id": "HUST_5-2",
+      "dataset": "Li_ion",
+      "source_file": "HUST_5-2.pkl"
+    },
+    {
+      "cell_id": "HUST_5-3",
+      "dataset": "Li_ion",
+      "source_file": "HUST_5-3.pkl"
+    },
+    {
+      "cell_id": "HUST_5-4",
+      "dataset": "Li_ion",
+      "source_file": "HUST_5-4.pkl"
+    },
+    {
+      "cell_id": "HUST_5-6",
+      "dataset": "Li_ion",
+      "source_file": "HUST_5-6.pkl"
+    },
+    {
+      "cell_id": "HUST_6-3",
+      "dataset": "Li_ion",
+      "source_file": "HUST_6-3.pkl"
+    },
+    {
+      "cell_id": "HUST_6-4",
+      "dataset": "Li_ion",
+      "source_file": "HUST_6-4.pkl"
+    },
+    {
+      "cell_id": "HUST_6-5",
+      "dataset": "Li_ion",
+      "source_file": "HUST_6-5.pkl"
+    },
+    {
+      "cell_id": "HUST_6-8",
+      "dataset": "Li_ion",
+      "source_file": "HUST_6-8.pkl"
+    },
+    {
+      "cell_id": "HUST_7-3",
+      "dataset": "Li_ion",
+      "source_file": "HUST_7-3.pkl"
+    },
+    {
+      "cell_id": "HUST_7-4",
+      "dataset": "Li_ion",
+      "source_file": "HUST_7-4.pkl"
+    },
+    {
+      "cell_id": "HUST_7-5",
+      "dataset": "Li_ion",
+      "source_file": "HUST_7-5.pkl"
+    },
+    {
+      "cell_id": "HUST_7-6",
+      "dataset": "Li_ion",
+      "source_file": "HUST_7-6.pkl"
+    },
+    {
+      "cell_id": "HUST_7-7",
+      "dataset": "Li_ion",
+      "source_file": "HUST_7-7.pkl"
+    },
+    {
+      "cell_id": "HUST_7-8",
+      "dataset": "Li_ion",
+      "source_file": "HUST_7-8.pkl"
+    },
+    {
+      "cell_id": "HUST_8-3",
+      "dataset": "Li_ion",
+      "source_file": "HUST_8-3.pkl"
+    },
+    {
+      "cell_id": "HUST_8-5",
+      "dataset": "Li_ion",
+      "source_file": "HUST_8-5.pkl"
+    },
+    {
+      "cell_id": "HUST_8-6",
+      "dataset": "Li_ion",
+      "source_file": "HUST_8-6.pkl"
+    },
+    {
+      "cell_id": "HUST_8-7",
+      "dataset": "Li_ion",
+      "source_file": "HUST_8-7.pkl"
+    },
+    {
+      "cell_id": "HUST_8-8",
+      "dataset": "Li_ion",
+      "source_file": "HUST_8-8.pkl"
+    },
+    {
+      "cell_id": "HUST_9-3",
+      "dataset": "Li_ion",
+      "source_file": "HUST_9-3.pkl"
+    },
+    {
+      "cell_id": "HUST_9-4",
+      "dataset": "Li_ion",
+      "source_file": "HUST_9-4.pkl"
+    },
+    {
+      "cell_id": "HUST_9-5",
+      "dataset": "Li_ion",
+      "source_file": "HUST_9-5.pkl"
+    },
+    {
+      "cell_id": "HUST_9-7",
+      "dataset": "Li_ion",
+      "source_file": "HUST_9-7.pkl"
+    },
+    {
+      "cell_id": "HUST_9-8",
+      "dataset": "Li_ion",
+      "source_file": "HUST_9-8.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G10C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G10C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G10C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G10C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G12C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G12C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G12C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G12C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G12C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G12C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G13C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G13C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G13C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G13C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G14C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G14C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G16C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G16C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G16C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G16C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G16C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G16C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G16C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G16C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G17C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G17C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G17C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G17C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G18C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G18C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G18C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G18C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G18C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G18C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G19C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G19C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G19C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G19C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G19C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G19C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G1C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G1C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G1C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G1C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G21C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G21C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G21C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G21C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G21C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G21C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G21C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G21C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G22C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G22C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G22C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G22C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G22C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G22C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G22C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G22C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G23C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G23C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G23C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G23C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G23C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G23C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G23C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G23C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G24C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G24C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G24C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G24C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G24C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G24C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G24C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G24C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G27C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G27C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G28C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G28C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G28C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G28C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G28C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G28C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G28C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G28C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G29C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G29C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G29C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G29C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G29C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G29C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G29C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G29C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G2C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G2C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G2C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G2C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G2C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G2C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G30C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G30C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G31C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G31C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G31C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G31C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G32C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G32C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G32C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G32C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G32C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G32C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G33C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G33C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G33C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G33C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G34C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G34C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G34C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G34C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G35C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G35C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G35C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G35C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G35C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G35C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G35C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G35C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G36C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G36C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G36C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G36C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G36C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G36C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G36C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G36C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G37C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G37C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G37C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G37C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G37C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G37C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G37C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G37C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G39C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G39C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G39C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G39C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G39C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G39C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G39C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G39C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G3C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G3C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G3C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G3C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G40C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G40C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G41C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G41C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G41C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G41C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G41C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G41C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G42C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G42C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G42C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G42C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G42C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G42C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G44C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G44C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G44C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G44C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G45C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G45C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G45C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G45C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G45C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G45C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G46C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G46C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G46C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G46C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G46C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G46C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G46C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G46C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G47C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G47C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G47C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G47C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G48C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G48C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G48C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G48C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G48C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G48C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G49C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G49C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G49C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G49C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G4C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G4C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G50C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G50C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G50C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G50C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G50C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G50C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G50C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G50C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G51C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G51C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G51C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G51C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G51C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G51C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G52C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G52C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G52C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G52C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G53C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G53C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G53C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G53C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G53C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G53C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G53C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G53C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G54C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G54C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G54C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G54C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G54C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G54C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G55C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G55C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G55C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G55C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G55C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G55C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G56C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G56C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G56C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G56C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G56C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G56C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G57C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G57C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G57C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G57C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G59C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G59C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G59C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G59C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G5C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G5C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G5C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G5C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G5C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G5C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G5C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G5C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G60C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G60C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G60C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G60C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G61C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G61C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G62C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G62C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G62C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G62C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G62C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G62C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G62C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G62C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G63C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G63C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G63C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G63C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G63C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G63C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G63C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G63C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G64C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G64C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G64C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G64C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G64C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G64C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G64C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G64C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G6C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G6C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G6C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G6C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G6C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G6C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G7C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G7C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G7C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G7C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G7C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G7C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G8C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G8C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G8C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G8C3.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c0",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c0.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c1",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c1.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c16",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c16.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c17",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c17.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c18",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c18.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c19",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c19.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c2",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c2.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c20",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c20.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c21",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c21.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c24",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c24.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c25",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c25.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c26",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c26.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c27",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c27.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c28",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c28.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c29",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c29.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c3",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c3.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c34",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c34.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c35",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c35.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c36",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c36.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c37",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c37.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c4",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c4.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c40",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c40.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c41",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c41.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c42",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c42.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c5",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c5.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c6",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c6.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c7",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c7.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c9",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c9.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c11",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c11.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c12",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c12.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c13",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c13.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c14",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c14.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c18",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c18.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c19",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c19.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c2",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c2.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c21",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c21.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c23",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c23.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c24",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c24.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c25",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c25.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c26",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c26.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c27",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c27.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c29",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c29.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c30",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c30.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c31",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c31.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c32",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c32.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c33",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c33.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c34",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c34.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c39",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c39.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c40",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c40.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c42",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c42.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c5",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c5.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c6",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c6.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c0",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c0.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c1",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c1.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c10",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c10.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c11",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c11.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c12",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c12.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c13",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c13.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c14",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c14.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c15",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c15.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c16",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c16.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c17",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c17.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c18",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c18.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c19",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c19.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c20",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c20.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c21",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c21.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c24",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c24.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c25",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c25.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c26",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c26.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c27",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c27.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c28",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c28.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c29",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c29.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c3",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c3.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c30",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c30.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c33",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c33.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c34",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c34.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c35",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c35.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c36",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c36.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c38",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c38.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c39",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c39.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c4",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c4.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c40",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c40.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c41",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c41.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c44",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c44.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c45",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c45.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c5",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c5.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c6",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c6.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c7",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c7.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c8",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c8.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c9",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c9.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c10",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c10.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c11",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c11.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c12",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c12.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c13",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c13.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c14",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c14.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c15",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c15.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c20",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c20.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c21",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c21.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c27",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c27.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c29",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c29.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c3",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c3.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c32",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c32.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c34",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c34.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c36",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c36.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c38",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c38.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c4",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c4.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c42",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c42.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c43",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c43.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c44",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c44.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c5",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c5.pkl"
+    },
+    {
+      "cell_id": "MICH_02C_pouch_NMC_-5C_0-100_0.2-0.2C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_02C_pouch_NMC_-5C_0-100_0.2-0.2C.pkl"
+    },
+    {
+      "cell_id": "MICH_03H_pouch_NMC_45C_0-100_0.2-0.2C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_03H_pouch_NMC_45C_0-100_0.2-0.2C.pkl"
+    },
+    {
+      "cell_id": "MICH_05C_pouch_NMC_-5C_0-100_1.5-1.5C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_05C_pouch_NMC_-5C_0-100_1.5-1.5C.pkl"
+    },
+    {
+      "cell_id": "MICH_06H_pouch_NMC_45C_0-100_1.5-1.5C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_06H_pouch_NMC_45C_0-100_1.5-1.5C.pkl"
+    },
+    {
+      "cell_id": "MICH_07R_pouch_NMC_25C_0-100_2-2C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_07R_pouch_NMC_25C_0-100_2-2C.pkl"
+    },
+    {
+      "cell_id": "MICH_09H_pouch_NMC_45C_0-100_2-2C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_09H_pouch_NMC_45C_0-100_2-2C.pkl"
+    },
+    {
+      "cell_id": "MICH_10R_pouch_NMC_25C_0-100_0.2-1.5C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_10R_pouch_NMC_25C_0-100_0.2-1.5C.pkl"
+    },
+    {
+      "cell_id": "MICH_11C_pouch_NMC_-5C_0-100_0.2-1.5C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_11C_pouch_NMC_-5C_0-100_0.2-1.5C.pkl"
+    },
+    {
+      "cell_id": "MICH_12H_pouch_NMC_45C_0-100_0.2-1.5C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_12H_pouch_NMC_45C_0-100_0.2-1.5C.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm10_pouch_NMC_25C_0-100_1-1C_j",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm10_pouch_NMC_25C_0-100_1-1C_j.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm11_pouch_NMC_25C_0-100_1-1C_a",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm11_pouch_NMC_25C_0-100_1-1C_a.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm12_pouch_NMC_25C_0-100_1-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm12_pouch_NMC_25C_0-100_1-1C_b.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm13_pouch_NMC_25C_0-100_1-1C_c",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm13_pouch_NMC_25C_0-100_1-1C_c.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm14_pouch_NMC_25C_0-100_1-1C_d",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm14_pouch_NMC_25C_0-100_1-1C_d.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm15_pouch_NMC_25C_0-100_1-1C_e",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm15_pouch_NMC_25C_0-100_1-1C_e.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm16_pouch_NMC_25C_0-100_1-1C_f",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm16_pouch_NMC_25C_0-100_1-1C_f.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm17_pouch_NMC_25C_0-100_1-1C_g",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm17_pouch_NMC_25C_0-100_1-1C_g.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm18_pouch_NMC_25C_0-100_1-1C_h",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm18_pouch_NMC_25C_0-100_1-1C_h.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm19_pouch_NMC_25C_0-100_1-1C_i",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm19_pouch_NMC_25C_0-100_1-1C_i.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm1_pouch_NMC_45C_0-100_1-1C_a",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm1_pouch_NMC_45C_0-100_1-1C_a.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm20_pouch_NMC_25C_0-100_1-1C_j",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm20_pouch_NMC_25C_0-100_1-1C_j.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm2_pouch_NMC_45C_0-100_1-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm2_pouch_NMC_45C_0-100_1-1C_b.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm3_pouch_NMC_45C_0-100_1-1C_c",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm3_pouch_NMC_45C_0-100_1-1C_c.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm4_pouch_NMC_45C_0-100_1-1C_d",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm4_pouch_NMC_45C_0-100_1-1C_d.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm5_pouch_NMC_45C_0-100_1-1C_e",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm5_pouch_NMC_45C_0-100_1-1C_e.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm6_pouch_NMC_45C_0-100_1-1C_f",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm6_pouch_NMC_45C_0-100_1-1C_f.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm7_pouch_NMC_45C_0-100_1-1C_g",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm7_pouch_NMC_45C_0-100_1-1C_g.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm8_pouch_NMC_45C_0-100_1-1C_h",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm8_pouch_NMC_45C_0-100_1-1C_h.pkl"
+    },
+    {
+      "cell_id": "MICH_BLForm9_pouch_NMC_45C_0-100_1-1C_i",
+      "dataset": "Li_ion",
+      "source_file": "MICH_BLForm9_pouch_NMC_45C_0-100_1-1C_i.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm21_pouch_NMC_25C_0-100_1-1C_a",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm21_pouch_NMC_25C_0-100_1-1C_a.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm22_pouch_NMC_25C_0-100_1-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm22_pouch_NMC_25C_0-100_1-1C_b.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm23_pouch_NMC_25C_0-100_1-1C_c",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm23_pouch_NMC_25C_0-100_1-1C_c.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm24_pouch_NMC_25C_0-100_1-1C_d",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm24_pouch_NMC_25C_0-100_1-1C_d.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm25_pouch_NMC_25C_0-100_1-1C_e",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm25_pouch_NMC_25C_0-100_1-1C_e.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm26_pouch_NMC_25C_0-100_1-1C_f",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm26_pouch_NMC_25C_0-100_1-1C_f.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm27_pouch_NMC_25C_0-100_1-1C_g",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm27_pouch_NMC_25C_0-100_1-1C_g.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm28_pouch_NMC_25C_0-100_1-1C_h",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm28_pouch_NMC_25C_0-100_1-1C_h.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm29_pouch_NMC_25C_0-100_1-1C_i",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm29_pouch_NMC_25C_0-100_1-1C_i.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm30_pouch_NMC_25C_0-100_1-1C_j",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm30_pouch_NMC_25C_0-100_1-1C_j.pkl"
+    },
+    {
+      "cell_id": "RWTH_002",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_002.pkl"
+    },
+    {
+      "cell_id": "RWTH_003",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_003.pkl"
+    },
+    {
+      "cell_id": "RWTH_004",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_004.pkl"
+    },
+    {
+      "cell_id": "RWTH_005",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_005.pkl"
+    },
+    {
+      "cell_id": "RWTH_006",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_006.pkl"
+    },
+    {
+      "cell_id": "RWTH_007",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_007.pkl"
+    },
+    {
+      "cell_id": "RWTH_008",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_008.pkl"
+    },
+    {
+      "cell_id": "RWTH_009",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_009.pkl"
+    },
+    {
+      "cell_id": "RWTH_010",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_010.pkl"
+    },
+    {
+      "cell_id": "RWTH_011",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_011.pkl"
+    },
+    {
+      "cell_id": "RWTH_012",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_012.pkl"
+    },
+    {
+      "cell_id": "RWTH_013",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_013.pkl"
+    },
+    {
+      "cell_id": "RWTH_014",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_014.pkl"
+    },
+    {
+      "cell_id": "RWTH_015",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_015.pkl"
+    },
+    {
+      "cell_id": "RWTH_016",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_016.pkl"
+    },
+    {
+      "cell_id": "RWTH_017",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_017.pkl"
+    },
+    {
+      "cell_id": "RWTH_018",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_018.pkl"
+    },
+    {
+      "cell_id": "RWTH_019",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_019.pkl"
+    },
+    {
+      "cell_id": "RWTH_020",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_020.pkl"
+    },
+    {
+      "cell_id": "RWTH_021",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_021.pkl"
+    },
+    {
+      "cell_id": "RWTH_022",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_022.pkl"
+    },
+    {
+      "cell_id": "RWTH_023",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_023.pkl"
+    },
+    {
+      "cell_id": "RWTH_024",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_024.pkl"
+    },
+    {
+      "cell_id": "RWTH_025",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_025.pkl"
+    },
+    {
+      "cell_id": "RWTH_026",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_026.pkl"
+    },
+    {
+      "cell_id": "RWTH_027",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_027.pkl"
+    },
+    {
+      "cell_id": "RWTH_028",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_028.pkl"
+    },
+    {
+      "cell_id": "RWTH_029",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_029.pkl"
+    },
+    {
+      "cell_id": "RWTH_030",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_030.pkl"
+    },
+    {
+      "cell_id": "RWTH_031",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_031.pkl"
+    },
+    {
+      "cell_id": "RWTH_032",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_032.pkl"
+    },
+    {
+      "cell_id": "RWTH_033",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_033.pkl"
+    },
+    {
+      "cell_id": "RWTH_034",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_034.pkl"
+    },
+    {
+      "cell_id": "RWTH_035",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_035.pkl"
+    },
+    {
+      "cell_id": "RWTH_036",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_036.pkl"
+    },
+    {
+      "cell_id": "RWTH_037",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_037.pkl"
+    },
+    {
+      "cell_id": "RWTH_038",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_038.pkl"
+    },
+    {
+      "cell_id": "RWTH_039",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_039.pkl"
+    },
+    {
+      "cell_id": "RWTH_040",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_040.pkl"
+    },
+    {
+      "cell_id": "RWTH_041",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_041.pkl"
+    },
+    {
+      "cell_id": "RWTH_042",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_042.pkl"
+    },
+    {
+      "cell_id": "RWTH_043",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_043.pkl"
+    },
+    {
+      "cell_id": "RWTH_044",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_044.pkl"
+    },
+    {
+      "cell_id": "RWTH_045",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_045.pkl"
+    },
+    {
+      "cell_id": "RWTH_046",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_046.pkl"
+    },
+    {
+      "cell_id": "RWTH_047",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_047.pkl"
+    },
+    {
+      "cell_id": "RWTH_048",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_048.pkl"
+    },
+    {
+      "cell_id": "RWTH_049",
+      "dataset": "Li_ion",
+      "source_file": "RWTH_049.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_LFP_25C_0-100_0.5-3C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_LFP_25C_0-100_0.5-3C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_LFP_25C_0-100_0.5-3C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_LFP_25C_0-100_0.5-3C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_LFP_25C_0-100_0.5-3C_c",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_LFP_25C_0-100_0.5-3C_c.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_LFP_25C_0-100_0.5-3C_d",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_LFP_25C_0-100_0.5-3C_d.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_15C_0-100_0.5-1C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_15C_0-100_0.5-1C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_15C_0-100_0.5-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_15C_0-100_0.5-1C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_15C_0-100_0.5-2C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_15C_0-100_0.5-2C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_15C_0-100_0.5-2C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_15C_0-100_0.5-2C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_15C_0-100_0.5-1C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_15C_0-100_0.5-1C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_15C_0-100_0.5-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_15C_0-100_0.5-1C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-1C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-1C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-1C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-1C_c",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-1C_c.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-1C_d",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-1C_d.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-2C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-2C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-2C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-2C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-3C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-3C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-3C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-3C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-3C_c",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-3C_c.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_25C_0-100_0.5-3C_d",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_25C_0-100_0.5-3C_d.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_35C_0-100_0.5-1C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_35C_0-100_0.5-1C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_35C_0-100_0.5-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_35C_0-100_0.5-1C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_35C_0-100_0.5-1C_c",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_35C_0-100_0.5-1C_c.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_35C_0-100_0.5-1C_d",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_35C_0-100_0.5-1C_d.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_35C_0-100_0.5-2C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_35C_0-100_0.5-2C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_35C_0-100_0.5-2C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_35C_0-100_0.5-2C_b.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_100",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_100.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_101",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_101.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_102",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_102.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_103",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_103.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_104",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_104.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_105",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_105.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_112",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_112.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_113",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_113.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_114",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_114.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_115",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_115.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_116",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_116.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_117",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_117.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_118",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_118.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_119",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_119.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_120",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_120.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_121",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_121.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_122",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_122.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_123",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_123.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_124",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_124.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_125",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_125.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_126",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_126.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_130",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_130.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_131",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_131.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_145",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_145.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_146",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_146.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_147",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_147.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_151",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_151.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_152",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_152.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_157",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_157.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_158",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_158.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_159",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_159.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_160",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_160.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_161",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_161.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_162",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_162.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_169",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_169.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_170",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_170.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_171",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_171.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_175",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_175.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_176",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_176.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_177",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_177.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_181",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_181.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_182",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_182.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_183",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_183.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_184",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_184.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_185",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_185.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_186",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_186.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_187",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_187.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_188",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_188.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_189",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_189.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_190",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_190.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_191",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_191.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_192",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_192.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_193",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_193.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_194",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_194.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_195",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_195.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_196",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_196.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_198",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_198.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_199",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_199.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_200",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_200.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_201",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_201.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_205",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_205.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_206",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_206.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_207",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_207.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_208",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_208.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_209",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_209.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_210",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_210.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_211",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_211.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_212",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_212.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_213",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_213.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_223",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_223.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_224",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_224.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_225",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_225.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_226",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_226.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_227",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_227.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_228",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_228.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_229",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_229.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_230",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_230.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_269",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_269.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_273",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_273.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_274",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_274.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_275",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_275.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_279",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_279.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_280",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_280.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_281",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_281.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_294",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_294.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_295",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_295.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_296",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_296.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_300",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_300.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_301",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_301.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_302",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_302.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_306",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_306.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_307",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_307.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_308",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_308.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_318",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_318.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_319",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_319.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_320",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_320.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_321",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_321.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_322",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_322.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_323",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_323.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_324",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_324.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_325",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_325.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_326",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_326.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_Ref_100",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_Ref_100.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_Ref_101",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_Ref_101.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_Ref_102",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_Ref_102.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-025_1--1",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-025_1--1.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-025_1--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-025_1--2.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-025_1--3",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-025_1--3.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-025_1--4",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-025_1--4.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-025_1--5",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-025_1--5.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-025_1--6",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-025_1--6.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-025_1--7",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-025_1--7.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--1",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--1.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--10",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--10.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--11",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--11.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--12",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--12.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--13",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--13.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--14",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--14.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--15",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--15.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--16",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--16.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--17",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--17.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--18",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--18.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--19",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--19.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--2.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--3",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--3.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--4",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--4.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--5",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--5.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--6",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--6.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-05_1--7",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-05_1--7.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-1_1--1",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-1_1--1.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-1_1--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-1_1--2.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-1_1--3",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-1_1--3.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-1_1--4",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-1_1--4.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-1_1--5",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-1_1--5.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-1_1--6",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-1_1--6.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-1_1--7",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-1_1--7.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-1_1--8",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-1_1--8.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY25-1_1--9",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY25-1_1--9.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY35-05_1--1",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY35-05_1--1.pkl"
+    },
+    {
+      "cell_id": "Tongji1_CY35-05_1--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji1_CY35-05_1--2.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY25-05_1--10",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY25-05_1--10.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY25-05_1--12",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY25-05_1--12.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY25-05_1--13",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY25-05_1--13.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY25-05_1--15",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY25-05_1--15.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY25-05_1--16",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY25-05_1--16.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY25-05_1--17",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY25-05_1--17.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY25-05_1--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY25-05_1--2.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY25-05_1--5",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY25-05_1--5.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY25-05_1--8",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY25-05_1--8.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY25-05_1--9",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY25-05_1--9.pkl"
+    },
+    {
+      "cell_id": "Tongji3_CY25-05_1--1",
+      "dataset": "Li_ion",
+      "source_file": "Tongji3_CY25-05_1--1.pkl"
+    },
+    {
+      "cell_id": "Tongji3_CY25-05_1--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji3_CY25-05_1--2.pkl"
+    },
+    {
+      "cell_id": "Tongji3_CY25-05_1--3",
+      "dataset": "Li_ion",
+      "source_file": "Tongji3_CY25-05_1--3.pkl"
+    },
+    {
+      "cell_id": "UL-PUR_N10-NA7_18650_NCA_23C_0-100_0.5-0.5C_g",
+      "dataset": "Li_ion",
+      "source_file": "UL-PUR_N10-NA7_18650_NCA_23C_0-100_0.5-0.5C_g.pkl"
+    },
+    {
+      "cell_id": "UL-PUR_N15-NA10_18650_NCA_23C_0-100_0.5-0.5C_j",
+      "dataset": "Li_ion",
+      "source_file": "UL-PUR_N15-NA10_18650_NCA_23C_0-100_0.5-0.5C_j.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-1",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-1.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-10",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-10.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-11",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-11.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-12",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-12.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-13",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-13.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-14",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-14.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-15",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-15.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-2",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-2.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-3",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-3.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-4",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-4.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-5",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-5.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-6",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-6.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-7",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-7.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-8",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-8.pkl"
+    },
+    {
+      "cell_id": "XJTU_3C_battery-9",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_3C_battery-9.pkl"
+    }
+  ],
+  "val": [
+    {
+      "cell_id": "HUST_1-1",
+      "dataset": "Li_ion",
+      "source_file": "HUST_1-1.pkl"
+    },
+    {
+      "cell_id": "HUST_1-2",
+      "dataset": "Li_ion",
+      "source_file": "HUST_1-2.pkl"
+    },
+    {
+      "cell_id": "HUST_1-3",
+      "dataset": "Li_ion",
+      "source_file": "HUST_1-3.pkl"
+    },
+    {
+      "cell_id": "HUST_1-4",
+      "dataset": "Li_ion",
+      "source_file": "HUST_1-4.pkl"
+    },
+    {
+      "cell_id": "HUST_1-6",
+      "dataset": "Li_ion",
+      "source_file": "HUST_1-6.pkl"
+    },
+    {
+      "cell_id": "HUST_1-8",
+      "dataset": "Li_ion",
+      "source_file": "HUST_1-8.pkl"
+    },
+    {
+      "cell_id": "HUST_10-4",
+      "dataset": "Li_ion",
+      "source_file": "HUST_10-4.pkl"
+    },
+    {
+      "cell_id": "HUST_10-6",
+      "dataset": "Li_ion",
+      "source_file": "HUST_10-6.pkl"
+    },
+    {
+      "cell_id": "HUST_3-3",
+      "dataset": "Li_ion",
+      "source_file": "HUST_3-3.pkl"
+    },
+    {
+      "cell_id": "HUST_4-1",
+      "dataset": "Li_ion",
+      "source_file": "HUST_4-1.pkl"
+    },
+    {
+      "cell_id": "HUST_4-4",
+      "dataset": "Li_ion",
+      "source_file": "HUST_4-4.pkl"
+    },
+    {
+      "cell_id": "HUST_4-5",
+      "dataset": "Li_ion",
+      "source_file": "HUST_4-5.pkl"
+    },
+    {
+      "cell_id": "HUST_5-1",
+      "dataset": "Li_ion",
+      "source_file": "HUST_5-1.pkl"
+    },
+    {
+      "cell_id": "HUST_5-5",
+      "dataset": "Li_ion",
+      "source_file": "HUST_5-5.pkl"
+    },
+    {
+      "cell_id": "HUST_6-1",
+      "dataset": "Li_ion",
+      "source_file": "HUST_6-1.pkl"
+    },
+    {
+      "cell_id": "HUST_6-2",
+      "dataset": "Li_ion",
+      "source_file": "HUST_6-2.pkl"
+    },
+    {
+      "cell_id": "HUST_6-6",
+      "dataset": "Li_ion",
+      "source_file": "HUST_6-6.pkl"
+    },
+    {
+      "cell_id": "HUST_8-2",
+      "dataset": "Li_ion",
+      "source_file": "HUST_8-2.pkl"
+    },
+    {
+      "cell_id": "HUST_9-1",
+      "dataset": "Li_ion",
+      "source_file": "HUST_9-1.pkl"
+    },
+    {
+      "cell_id": "HUST_9-2",
+      "dataset": "Li_ion",
+      "source_file": "HUST_9-2.pkl"
+    },
+    {
+      "cell_id": "HUST_9-6",
+      "dataset": "Li_ion",
+      "source_file": "HUST_9-6.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G10C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G10C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G10C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G10C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G12C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G12C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G14C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G14C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G14C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G14C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G14C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G14C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G17C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G17C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G17C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G17C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G18C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G18C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G1C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G1C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G25C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G25C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G27C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G27C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G27C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G27C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G2C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G2C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G30C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G30C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G30C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G30C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G30C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G30C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G31C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G31C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G33C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G33C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G34C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G34C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G40C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G40C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G43C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G43C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G43C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G43C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G47C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G47C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G49C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G49C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G4C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G4C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G52C1",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G52C1.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G52C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G52C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G54C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G54C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G56C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G56C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G57C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G57C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G58C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G58C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G59C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G59C3.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G60C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G60C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G61C2",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G61C2.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G61C4",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G61C4.pkl"
+    },
+    {
+      "cell_id": "ISU-ILCC_G7C3",
+      "dataset": "Li_ion",
+      "source_file": "ISU-ILCC_G7C3.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c11",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c11.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c14",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c14.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c30",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c30.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c31",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c31.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c32",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c32.pkl"
+    },
+    {
+      "cell_id": "MATR_b1c33",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b1c33.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c0",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c0.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c1",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c1.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c17",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c17.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c22",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c22.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c35",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c35.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c36",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c36.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c37",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c37.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c38",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c38.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c4",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c4.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c41",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c41.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c44",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c44.pkl"
+    },
+    {
+      "cell_id": "MATR_b2c47",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b2c47.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c22",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c22.pkl"
+    },
+    {
+      "cell_id": "MATR_b3c31",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b3c31.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c16",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c16.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c18",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c18.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c19",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c19.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c28",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c28.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c30",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c30.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c31",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c31.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c33",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c33.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c37",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c37.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c40",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c40.pkl"
+    },
+    {
+      "cell_id": "MATR_b4c6",
+      "dataset": "Li_ion",
+      "source_file": "MATR_b4c6.pkl"
+    },
+    {
+      "cell_id": "MICH_08C_pouch_NMC_-5C_0-100_2-2C",
+      "dataset": "Li_ion",
+      "source_file": "MICH_08C_pouch_NMC_-5C_0-100_2-2C.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm31_pouch_NMC_45C_0-100_1-1C_a",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm31_pouch_NMC_45C_0-100_1-1C_a.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm32_pouch_NMC_45C_0-100_1-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm32_pouch_NMC_45C_0-100_1-1C_b.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm33_pouch_NMC_45C_0-100_1-1C_c",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm33_pouch_NMC_45C_0-100_1-1C_c.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm34_pouch_NMC_45C_0-100_1-1C_d",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm34_pouch_NMC_45C_0-100_1-1C_d.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm35_pouch_NMC_45C_0-100_1-1C_e",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm35_pouch_NMC_45C_0-100_1-1C_e.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm36_pouch_NMC_45C_0-100_1-1C_f",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm36_pouch_NMC_45C_0-100_1-1C_f.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm37_pouch_NMC_45C_0-100_1-1C_g",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm37_pouch_NMC_45C_0-100_1-1C_g.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm38_pouch_NMC_45C_0-100_1-1C_h",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm38_pouch_NMC_45C_0-100_1-1C_h.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm39_pouch_NMC_45C_0-100_1-1C_i",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm39_pouch_NMC_45C_0-100_1-1C_i.pkl"
+    },
+    {
+      "cell_id": "MICH_MCForm40_pouch_NMC_45C_0-100_1-1C_j",
+      "dataset": "Li_ion",
+      "source_file": "MICH_MCForm40_pouch_NMC_45C_0-100_1-1C_j.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_35C_0-100_0.5-1C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_35C_0-100_0.5-1C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_35C_0-100_0.5-1C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_35C_0-100_0.5-1C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_35C_0-100_0.5-1C_c",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_35C_0-100_0.5-1C_c.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_35C_0-100_0.5-1C_d",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_35C_0-100_0.5-1C_d.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_35C_0-100_0.5-2C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_35C_0-100_0.5-2C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NCA_35C_0-100_0.5-2C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NCA_35C_0-100_0.5-2C_b.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_15C_0-100_0.5-2C_a",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_15C_0-100_0.5-2C_a.pkl"
+    },
+    {
+      "cell_id": "SNL_18650_NMC_15C_0-100_0.5-2C_b",
+      "dataset": "Li_ion",
+      "source_file": "SNL_18650_NMC_15C_0-100_0.5-2C_b.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_127",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_127.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_128",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_128.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_129",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_129.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_134",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_134.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_135",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_135.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_136",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_136.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_137",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_137.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_138",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_138.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_166",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_166.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_167",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_167.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_168",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_168.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_178",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_178.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_179",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_179.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_180",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_180.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_220",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_220.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_221",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_221.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_222",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_222.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_270",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_270.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_271",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_271.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_272",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_272.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_276",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_276.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_277",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_277.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_278",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_278.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_291",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_291.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_292",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_292.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_293",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_293.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_309",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_309.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_310",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_310.pkl"
+    },
+    {
+      "cell_id": "Stanford_Nova_Regular_311",
+      "dataset": "Li_ion",
+      "source_file": "Stanford_Nova_Regular_311.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--1",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--1.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--10",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--10.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--11",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--11.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--12",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--12.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--13",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--13.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--14",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--14.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--15",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--15.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--16",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--16.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--17",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--17.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--18",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--18.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--19",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--19.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--2.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--20",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--20.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--21",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--21.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--22",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--22.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--23",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--23.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--24",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--24.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--25",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--25.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--26",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--26.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--27",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--27.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--28",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--28.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--7",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--7.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--8",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--8.pkl"
+    },
+    {
+      "cell_id": "Tongji2_CY45-05_1--9",
+      "dataset": "Li_ion",
+      "source_file": "Tongji2_CY45-05_1--9.pkl"
+    },
+    {
+      "cell_id": "Tongji3_CY25-05_4--1",
+      "dataset": "Li_ion",
+      "source_file": "Tongji3_CY25-05_4--1.pkl"
+    },
+    {
+      "cell_id": "Tongji3_CY25-05_4--2",
+      "dataset": "Li_ion",
+      "source_file": "Tongji3_CY25-05_4--2.pkl"
+    },
+    {
+      "cell_id": "Tongji3_CY25-05_4--3",
+      "dataset": "Li_ion",
+      "source_file": "Tongji3_CY25-05_4--3.pkl"
+    },
+    {
+      "cell_id": "XJTU_2C_battery-1",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_2C_battery-1.pkl"
+    },
+    {
+      "cell_id": "XJTU_2C_battery-2",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_2C_battery-2.pkl"
+    },
+    {
+      "cell_id": "XJTU_2C_battery-3",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_2C_battery-3.pkl"
+    },
+    {
+      "cell_id": "XJTU_2C_battery-4",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_2C_battery-4.pkl"
+    },
+    {
+      "cell_id": "XJTU_2C_battery-5",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_2C_battery-5.pkl"
+    },
+    {
+      "cell_id": "XJTU_2C_battery-6",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_2C_battery-6.pkl"
+    },
+    {
+      "cell_id": "XJTU_2C_battery-7",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_2C_battery-7.pkl"
+    },
+    {
+      "cell_id": "XJTU_2C_battery-8",
+      "dataset": "Li_ion",
+      "source_file": "XJTU_2C_battery-8.pkl"
+    }
+  ]
+}

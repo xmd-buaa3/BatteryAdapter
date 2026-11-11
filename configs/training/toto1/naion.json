@@ -1,0 +1,48 @@
+{
+  "config": {
+    "backbone": "toto1",
+    "use_tsfm": true,
+    "observed_cycles": 100,
+    "points": 150,
+    "horizon": 5000,
+    "curve_channels": 3,
+    "bridge_read": "attention",
+    "compressed_dim": 16,
+    "compressor": "phase_cnn",
+    "epochs": [
+      10,
+      20,
+      30
+    ],
+    "field_dropout": 0.0,
+    "learning_rate": 0.001,
+    "life_loss": "scaled_huber",
+    "loss_weights": [
+      1.0,
+      1.0,
+      0.1
+    ],
+    "task_head": "auto",
+    "weight_decay": 0.0001,
+    "levels": [
+      4
+    ],
+    "input_protocol": "batterymformer"
+  },
+  "train_seed_by_unit": {
+    "cond405": 2021,
+    "cond402": 2021,
+    "cond403": 2021,
+    "cond407": 2021,
+    "cond408": 2021,
+    "cond404": 2021,
+    "cond409": 2021,
+    "cond401": 2021,
+    "cond410": 2021,
+    "cond411": 2021,
+    "cond400": 2021,
+    "cond406": 2021
+  },
+  "batch_size": 32,
+  "source_config_sha256": "19661ae4f2a7c4e4d8706a111843b332a28d2829854489e0fa80307c041ea7db"
+}

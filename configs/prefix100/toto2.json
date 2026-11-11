@@ -1,0 +1,42 @@
+{
+ "_note": "PROVISIONAL: toto2 has no completed frozen+BA champion yet (strict TPE runs unfinished); ba mirrors the toto1 champion and batch_size 8 is a capacity guess. Override before interpreting results. | LoRA lr reduced to 1e-5 + dropout 0.05 after CALB399 nonfinite forecast (2026-11-07 s2-lora fail); all toto2 units rerun with the stabilized settings. | Fix#2 (2026-11-07): CALB399 fixed by lr 1e-5 but Liion seed42 diverged again at forecast; further lr 5e-6 + epochs 10; all units rerun.",
+ "ba": {
+  "backbone": "tiny",
+  "use_tsfm": true,
+  "observed_cycles": 100,
+  "points": 150,
+  "horizon": 5000,
+  "curve_channels": 3,
+  "epochs": [
+   10,
+   20,
+   30
+  ],
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "compressed_dim": 16,
+  "field_dropout": 0.1,
+  "bridge_read": "attention",
+  "compressor": "phase_cnn",
+  "life_loss": "scaled_huber",
+  "loss_weights": [
+   1.0,
+   1.0,
+   0.1
+  ],
+  "task_head": "auto"
+ },
+ "batch_size": 8,
+ "native": {
+  "epochs": 10,
+  "learning_rate": 5e-06,
+  "lora": {
+   "rank": 16,
+   "alpha": 32,
+   "dropout": 0.05
+  },
+  "prediction": {
+   "block_length": 320
+  }
+ }
+}

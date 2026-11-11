@@ -1,0 +1,24 @@
+{
+  "_note": "PROVISIONAL: same basis as timestral.json (209M strict search unfinished); batch 2 per the strict timestral family convention.",
+  "ba": {
+    "backbone": "tiny",
+    "use_tsfm": true,
+    "observed_cycles": 100,
+    "points": 150,
+    "horizon": 5000,
+    "curve_channels": 3,
+    "epochs": [10, 20, 40],
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "compressed_dim": 16,
+    "field_dropout": 0.1,
+    "loss_weights": [1.0, 1.0, 0.1]
+  },
+  "batch_size": 2,
+  "native": {
+    "epochs": 20,
+    "learning_rate": 0.0001,
+    "lora": {"rank": 16, "alpha": 32, "dropout": 0.05},
+    "prediction": {"block_length": 320}
+  }
+}

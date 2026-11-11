@@ -1,0 +1,69 @@
+{
+  "model": "toto1",
+  "domain": "naion",
+  "metric": "test_curve_mae_x1e2",
+  "units": {
+    "cond400": 1.0124,
+    "cond401": 0.4721,
+    "cond402": 0.8829,
+    "cond403": 0.8099,
+    "cond404": 0.4834,
+    "cond405": 0.3854,
+    "cond406": 0.9258,
+    "cond407": 0.7409,
+    "cond408": 1.1718,
+    "cond409": 0.357,
+    "cond410": 0.171,
+    "cond411": 0.4693
+  },
+  "n_units": 12,
+  "mean": 0.6568,
+  "std_ddof1": 0.3082,
+  "train_seed_by_unit": {
+    "cond405": 2021,
+    "cond402": 2021,
+    "cond403": 2021,
+    "cond407": 2021,
+    "cond408": 2021,
+    "cond404": 2021,
+    "cond409": 2021,
+    "cond401": 2021,
+    "cond410": 2021,
+    "cond411": 2021,
+    "cond400": 2021,
+    "cond406": 2021
+  },
+  "config": {
+    "backbone": "tiny",
+    "use_tsfm": true,
+    "observed_cycles": 100,
+    "points": 150,
+    "horizon": 5000,
+    "curve_channels": 3,
+    "bridge_read": "attention",
+    "compressed_dim": 16,
+    "compressor": "phase_cnn",
+    "epochs": [
+      10,
+      20,
+      30
+    ],
+    "field_dropout": 0.0,
+    "learning_rate": 0.001,
+    "life_loss": "scaled_huber",
+    "loss_weights": [
+      1.0,
+      1.0,
+      0.1
+    ],
+    "task_head": "auto",
+    "weight_decay": 0.0001
+  },
+  "config_variant": "loao",
+  "source": {
+    "server": "5090",
+    "run_dir": "batteryadapter-protocol-v1/hprerun-bmfl4v3-newcfg-20261001",
+    "doc": "results/TSFM+BA与BatteryMFormer四域对比汇总-20261104.md (第三部分, 值逐位一致)"
+  },
+  "note": "train_seed_by_unit 为各单元实际训练种子; config 不含 seed 因 splits 按单元取种子"
+}

@@ -1,0 +1,66 @@
+{
+  "model": "moirai2",
+  "domain": "naion",
+  "metric": "test_curve_mae_x1e2",
+  "units": {
+    "cond400": 1.09,
+    "cond401": 1.0081,
+    "cond402": 0.8498,
+    "cond403": 0.7031,
+    "cond404": 0.4247,
+    "cond405": 0.2537,
+    "cond406": 0.4935,
+    "cond407": 0.5787,
+    "cond408": 1.3573,
+    "cond409": 0.5205,
+    "cond410": 0.1508,
+    "cond411": 0.3124
+  },
+  "n_units": 12,
+  "mean": 0.6452,
+  "std_ddof1": 0.367,
+  "train_seed_by_unit": {
+    "cond400": 2021,
+    "cond401": 2021,
+    "cond402": 2021,
+    "cond403": 2021,
+    "cond404": 2021,
+    "cond405": 2021,
+    "cond406": 2021,
+    "cond407": 2021,
+    "cond408": 2021,
+    "cond409": 2021,
+    "cond410": 2021,
+    "cond411": 2021
+  },
+  "config": {
+    "backbone": "tiny",
+    "use_tsfm": true,
+    "observed_cycles": 100,
+    "points": 150,
+    "horizon": 5000,
+    "curve_channels": 3,
+    "compressed_dim": 32,
+    "epochs": [
+      10,
+      20,
+      30
+    ],
+    "field_dropout": 0.1,
+    "learning_rate": 0.0003,
+    "loss_weights": [
+      1.0,
+      1.0,
+      0.1
+    ],
+    "task_head": "auto",
+    "weight_decay": 0.001
+  },
+  "config_variant": "loao",
+  "source": {
+    "server": "5090",
+    "run_dir": "batteryadapter-protocol-v1/bmf-l4-v3-20260926",
+    "doc": "results/TSFM+BA与BatteryMFormer四域对比汇总-20261104.md (第三部分, 值逐位一致)"
+  },
+  "note": "train_seed_by_unit 为各单元实际训练种子; config 不含 seed 因 splits 按单元取种子"
+}

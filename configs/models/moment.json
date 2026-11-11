@@ -1,0 +1,41 @@
+{
+  "ba": {
+    "backbone": "moment",
+    "use_tsfm": true,
+    "observed_cycles": 100,
+    "points": 150,
+    "horizon": 5000,
+    "curve_channels": 3,
+    "epochs": [
+      5,
+      10,
+      20
+    ],
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "compressed_dim": 32,
+    "field_dropout": 0.1,
+    "loss_weights": [
+      1.0,
+      1.0,
+      0.1
+    ],
+    "levels": [
+      4
+    ],
+    "input_protocol": "batterymformer"
+  },
+  "batch_size": 2,
+  "native": {
+    "epochs": 20,
+    "learning_rate": 0.0001,
+    "lora": {
+      "rank": 8,
+      "alpha": 16,
+      "dropout": 0.05
+    },
+    "prediction": {
+      "block_length": 320
+    }
+  }
+}

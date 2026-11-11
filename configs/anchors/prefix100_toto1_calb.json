@@ -1,0 +1,53 @@
+{
+  "model": "toto1",
+  "domain": "calb",
+  "metric": "test_curve_mae_x1e2",
+  "units": {
+    "cond396": 0.8505,
+    "cond397": 1.2354,
+    "cond398": 0.8897,
+    "cond399": 2.8199
+  },
+  "n_units": 4,
+  "mean": 1.4489,
+  "std_ddof1": 0.9302,
+  "train_seed_by_unit": {
+    "cond399": 2021,
+    "cond397": 2021,
+    "cond396": 2021,
+    "cond398": 2021
+  },
+  "config": {
+    "backbone": "tiny",
+    "use_tsfm": true,
+    "observed_cycles": 100,
+    "points": 150,
+    "horizon": 5000,
+    "curve_channels": 3,
+    "bridge_read": "attention",
+    "compressed_dim": 16,
+    "compressor": "phase_cnn",
+    "epochs": [
+      10,
+      20,
+      30
+    ],
+    "field_dropout": 0.0,
+    "learning_rate": 0.001,
+    "life_loss": "scaled_huber",
+    "loss_weights": [
+      1.0,
+      1.0,
+      0.1
+    ],
+    "task_head": "auto",
+    "weight_decay": 0.0001
+  },
+  "config_variant": "loao",
+  "source": {
+    "server": "5090",
+    "run_dir": "batteryadapter-protocol-v1/hprerun-bmfl4v3-newcfg-20261001",
+    "doc": "results/TSFM+BA与BatteryMFormer四域对比汇总-20261104.md (第三部分, 值逐位一致)"
+  },
+  "note": "train_seed_by_unit 为各单元实际训练种子; config 不含 seed 因 splits 按单元取种子"
+}

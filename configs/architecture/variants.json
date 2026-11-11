@@ -1,0 +1,28 @@
+{
+  "no_caf": {
+    "compressor": "capacity_only",
+    "use_soh": false,
+    "input_drop": [
+      "cyc",
+      "aging"
+    ],
+    "epochs": [
+      0,
+      20,
+      30
+    ]
+  },
+  "no_stage_a": {
+    "epochs": [
+      0,
+      20,
+      30
+    ]
+  },
+  "no_atd": {
+    "scheme_b": false
+  },
+  "no_shape_experts": {
+    "use_moe": false
+  }
+}

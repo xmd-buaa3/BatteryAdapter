@@ -1,0 +1,48 @@
+{
+  "config": {
+    "backbone": "chronos2",
+    "use_tsfm": true,
+    "observed_cycles": 100,
+    "points": 150,
+    "horizon": 5000,
+    "curve_channels": 3,
+    "bridge_read": "attention",
+    "compressed_dim": 16,
+    "compressor": "phase_cnn",
+    "epochs": [
+      10,
+      20,
+      30
+    ],
+    "field_dropout": 0.1,
+    "learning_rate": 0.003,
+    "life_loss": "scaled_huber",
+    "loss_weights": [
+      1.0,
+      1.0,
+      0.1
+    ],
+    "task_head": "auto",
+    "weight_decay": 0.001,
+    "levels": [
+      4
+    ],
+    "input_protocol": "batterymformer"
+  },
+  "train_seed_by_unit": {
+    "cond405": 2021,
+    "cond403": 2021,
+    "cond404": 2021,
+    "cond401": 2021,
+    "cond410": 2021,
+    "cond409": 2021,
+    "cond406": 2021,
+    "cond402": 2021,
+    "cond411": 2021,
+    "cond400": 2021,
+    "cond407": 2021,
+    "cond408": 2021
+  },
+  "batch_size": 32,
+  "source_config_sha256": "4c0f4d001462bd62cb1338b235b7d84eb10f6001b62603c646f3d86e0d8c9f40"
+}

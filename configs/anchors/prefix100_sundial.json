@@ -1,0 +1,23 @@
+{
+  "backbone": "tiny",
+  "use_tsfm": true,
+  "observed_cycles": 100,
+  "points": 150,
+  "horizon": 5000,
+  "curve_channels": 3,
+  "seed": 42,
+  "epochs": [
+    10,
+    20,
+    30
+  ],
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "compressed_dim": 16,
+  "field_dropout": 0.0,
+  "loss_weights": [
+    1.0,
+    1.0,
+    0.1
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "ba": {
+    "backbone": "tiny",
+    "use_tsfm": true,
+    "observed_cycles": 100,
+    "points": 150,
+    "horizon": 5000,
+    "curve_channels": 3,
+    "epochs": [10, 20, 30],
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "compressed_dim": 16,
+    "field_dropout": 0.1,
+    "bridge_read": "attention",
+    "compressor": "phase_cnn",
+    "life_loss": "scaled_huber",
+    "loss_weights": [1.0, 1.0, 0.1],
+    "task_head": "auto"
+  },
+  "batch_size": 32,
+  "native": {
+    "epochs": 20,
+    "learning_rate": 0.00001,
+    "lora": {"rank": 32, "alpha": 64, "dropout": 0.05},
+    "prediction": {"block_length": 320, "num_samples": 128, "samples_per_batch": 32}
+  }
+}

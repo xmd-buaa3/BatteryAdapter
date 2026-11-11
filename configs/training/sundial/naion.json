@@ -1,0 +1,45 @@
+{
+  "config": {
+    "backbone": "sundial",
+    "use_tsfm": true,
+    "observed_cycles": 100,
+    "points": 150,
+    "horizon": 5000,
+    "curve_channels": 3,
+    "compressed_dim": 16,
+    "epochs": [
+      10,
+      20,
+      30
+    ],
+    "field_dropout": 0.0,
+    "learning_rate": 0.001,
+    "loss_weights": [
+      1.0,
+      1.0,
+      0.1
+    ],
+    "task_head": "auto",
+    "weight_decay": 0.0001,
+    "levels": [
+      4
+    ],
+    "input_protocol": "batterymformer"
+  },
+  "train_seed_by_unit": {
+    "cond400": 2021,
+    "cond401": 2021,
+    "cond402": 2021,
+    "cond403": 2021,
+    "cond404": 2021,
+    "cond405": 2021,
+    "cond406": 2021,
+    "cond407": 2021,
+    "cond408": 2021,
+    "cond409": 2021,
+    "cond410": 2021,
+    "cond411": 2021
+  },
+  "batch_size": 32,
+  "source_config_sha256": "1b801ff3690716c50fef00fdb563ca2fd5162554ba23df778e6896eec9810203"
+}

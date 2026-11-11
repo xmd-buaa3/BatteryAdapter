@@ -1,0 +1,281 @@
+{
+ "_note": "Base = reference repo defaults; unit_configs = per-fold selections from 1baseline/ic2ml best_params (aggregate MAE verified vs user table). IC2ML also needs spec.raw_data_root for capacity-increment preprocessing.",
+ "model": {
+  "charge_discharge_length": 300,
+  "context": 100,
+  "d_ff": 256,
+  "horizon": 5000
+ },
+ "batch_size": 32,
+ "epochs": 300,
+ "learning_rate": 0.0001,
+ "weight_decay": 0.0,
+ "lambda_recovery": 0.0,
+ "lambda_mem": 0.0,
+ "unit_configs": {
+  "Liion_split_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 5e-05,
+   "weight_decay": 0.0
+  },
+  "Liion_split_seed42": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 256,
+   "epochs": 300,
+   "learning_rate": 0.0001,
+   "weight_decay": 0.0
+  },
+  "Liion_split_seed2024": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 64,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 0.0003,
+   "weight_decay": 0.0001
+  },
+  "ZNcoin_split_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 32,
+   "epochs": 300,
+   "learning_rate": 0.0002,
+   "weight_decay": 0.0001
+  },
+  "ZNcoin_split_seed42": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 256,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 0.0001,
+   "weight_decay": 0.001
+  },
+  "ZNcoin_split_seed2024": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 32,
+   "epochs": 300,
+   "learning_rate": 5e-05,
+   "weight_decay": 0.0001
+  },
+  "CALB_loao_cond396_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 256,
+    "horizon": 5000
+   },
+   "batch_size": 128,
+   "epochs": 300,
+   "learning_rate": 0.0003,
+   "weight_decay": 0.001
+  },
+  "CALB_loao_cond397_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 256,
+   "epochs": 300,
+   "learning_rate": 0.0003,
+   "weight_decay": 0.0
+  },
+  "CALB_loao_cond398_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 64,
+   "epochs": 300,
+   "learning_rate": 2e-05,
+   "weight_decay": 0.0
+  },
+  "CALB_loao_cond399_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 256,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 0.0003,
+   "weight_decay": 0.0001
+  },
+  "NA-ion_loao_cond400_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 2e-05,
+   "weight_decay": 0.01
+  },
+  "NA-ion_loao_cond401_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 256,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 5e-05,
+   "weight_decay": 0.0001
+  },
+  "NA-ion_loao_cond402_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 0.0002,
+   "weight_decay": 0.0001
+  },
+  "NA-ion_loao_cond403_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 64,
+   "epochs": 300,
+   "learning_rate": 2e-05,
+   "weight_decay": 0.0
+  },
+  "NA-ion_loao_cond404_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 0.0001,
+   "weight_decay": 0.0
+  },
+  "NA-ion_loao_cond405_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 256,
+    "horizon": 5000
+   },
+   "batch_size": 512,
+   "epochs": 300,
+   "learning_rate": 5e-05,
+   "weight_decay": 0.01
+  },
+  "NA-ion_loao_cond406_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 2e-05,
+   "weight_decay": 0.01
+  },
+  "NA-ion_loao_cond407_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 128,
+    "horizon": 5000
+   },
+   "batch_size": 512,
+   "epochs": 300,
+   "learning_rate": 0.0001,
+   "weight_decay": 0.0
+  },
+  "NA-ion_loao_cond408_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 128,
+    "horizon": 5000
+   },
+   "batch_size": 128,
+   "epochs": 300,
+   "learning_rate": 0.0001,
+   "weight_decay": 0.001
+  },
+  "NA-ion_loao_cond409_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 256,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 0.0003,
+   "weight_decay": 0.0001
+  },
+  "NA-ion_loao_cond410_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 512,
+    "horizon": 5000
+   },
+   "batch_size": 16,
+   "epochs": 300,
+   "learning_rate": 2e-05,
+   "weight_decay": 0.0001
+  },
+  "NA-ion_loao_cond411_seed2021": {
+   "model": {
+    "charge_discharge_length": 300,
+    "context": 100,
+    "d_ff": 64,
+    "horizon": 5000
+   },
+   "batch_size": 32,
+   "epochs": 300,
+   "learning_rate": 0.0002,
+   "weight_decay": 0.0
+  }
+ }
+}

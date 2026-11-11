@@ -1,0 +1,30 @@
+{
+  "source": "Li_ion",
+  "targets": [
+    "CALB",
+    "NA-ion",
+    "ZN-coin"
+  ],
+  "models": [
+    "sundial",
+    "toto1",
+    "BatteryMFormer"
+  ],
+  "strategies": [
+    "Frozen",
+    "FT",
+    "DA"
+  ],
+  "scopes": [
+    "ba",
+    "full"
+  ],
+  "batch_size": 8,
+  "explicit_training_parameters": [
+    "epochs",
+    "patience",
+    "learning_rate",
+    "backbone_lr",
+    "da_weight_for_DA"
+  ]
+}

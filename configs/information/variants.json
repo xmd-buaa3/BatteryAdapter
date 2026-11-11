@@ -1,0 +1,37 @@
+{
+  "full": {},
+  "no_curves": {
+    "input_drop": [
+      "curve"
+    ]
+  },
+  "no_aging": {
+    "input_drop": [
+      "aging"
+    ]
+  },
+  "no_es": {
+    "input_drop": [
+      "cyc"
+    ]
+  },
+  "no_es_soh": {
+    "input_drop": [
+      "cyc"
+    ],
+    "use_soh": false
+  },
+  "no_es_anchor": {
+    "input_drop": [
+      "cyc"
+    ],
+    "observed_start": false
+  },
+  "no_es_soh_anchor": {
+    "input_drop": [
+      "cyc"
+    ],
+    "use_soh": false,
+    "observed_start": false
+  }
+}
